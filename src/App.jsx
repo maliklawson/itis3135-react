@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
-import Header from "./components/Header.jsx";
-import Footer from "./components/Footer.jsx";
+import Header from "components/Header.jsx";
+import Footer from "components/Footer.jsx";
 import Home from "./pages/Home.jsx";
 import Introduction from "./pages/Introduction.jsx";
 import Contract from "./pages/Contract.jsx";
