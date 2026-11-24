@@ -1,17 +1,16 @@
 /* Start of index.html style for Course Page*/
+/* course-animal class styles the circular mascot image */
 .course-animal{
   max-width: 300px;
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  align-items: center;
 }
 
 body {
     font-family: tahoma, Helvetica;
     color: #fff8dc;
     background-color: rgb(77, 76, 76);
-    margin: auto;
     max-width: 1000px;
     margin: 0 auto;
     padding: 24px;
@@ -72,9 +71,9 @@ figure {
     text-align: center;
 }
 
-/* change font family*/
+/* diff-font class applies a bold font family for emphasis */
 .diff-font {
-    font-family: arial rgb(1, 1, 1);
+    font-family: arial black;
 }
 
 blockquote{
@@ -92,11 +91,13 @@ blockquote{
 }
 
 /* Start of website_evaluations.html style for Website evaluation Page */
+/* eval-list class adds spacing between evaluation list items */
 .eval-list li {
     margin-bottom: 5px;
 }
 
 /* Start of survey.html style for Website Survey Page */
+/* form-group class adds spacing below form field wrappers */
 .form-group {
     margin-bottom: .5rem;
 }
