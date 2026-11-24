@@ -1,0 +1,115 @@
+/* Start of index.html style for Course Page*/
+.course-animal{
+  max-width: 300px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  align-items: center;
+}
+
+body {
+    font-family: tahoma, Helvetica;
+    color: #fff8dc;
+    background-color: rgb(77, 76, 76);
+    margin: auto;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 880px;
+  margin: 30px auto;
+  color: rgb(77, 76, 76);
+  background: #fff8dc;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgb(0, 0, 0);
+  border-left: 6px solid rgb(125, 125, 125);
+}
+
+a:visited, a:link, a:active {
+    color: rgb(255, 117, 67);
+}
+
+a:hover {
+    color: orange;
+}
+
+
+hr {
+    border: 3px double;
+}
+
+footer {
+    text-align: center;
+    font-family: arial rgb(78, 78, 78);
+}
+
+footer a:visited, footer a:link, footer a:active {
+    color: rgb(255, 117, 67);
+}
+
+footer a:hover {
+    color: orange;
+}
+
+
+/* Start of introduction.html style for Introduction Page */
+h6 {
+    text-align: center;
+    font-size: 2rem;
+    white-space: nowrap;
+}
+
+
+figure {
+    text-align: center;
+}
+
+/* change font family*/
+.diff-font {
+    font-family: arial black;
+}
+
+blockquote{
+    text-align: center;
+}
+
+/* Start of contract.html style for Contract Page */
+
+@media (max-width: 700px) {
+    img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+}
+
+/* Start of website_evaluations.html style for Website evaluation Page */
+.eval-list li {
+    margin-bottom: 5px;
+}
+
+/* Start of survey.html style for Website Survey Page */
+.form-group {
+    margin-bottom: .5rem;
+}
+
+input[type="text"], input[type="email"], input[type="number"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
