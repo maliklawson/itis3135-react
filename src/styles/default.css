@@ -74,7 +74,7 @@ figure {
 
 /* change font family*/
 .diff-font {
-    font-family: arial black;
+    font-family: arial rgb(1, 1, 1);
 }
 
 blockquote{
@@ -83,7 +83,7 @@ blockquote{
 
 /* Start of contract.html style for Contract Page */
 
-@media (max-width <= 700px) {
+@media (max-width: 700px) {
     img {
         width: 100%;
         max-width: 300px;
